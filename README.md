@@ -14,7 +14,7 @@ Github event ---> jenkins ----> docker ---> kubernetes
 
 Steps For the POC task
 * Created a simple java project with hello world application
-* Created a item in jenkins and do with all the configuration
+* Created a item in jenkins and do with all the configuration 
   --> for installation of jenkins, simply download msi file and create a user and password for the same
   --> create a sample project (or new item ) in jenkins
   --> Install all the required plugins for the task like Pipeline, docker etc.
@@ -67,9 +67,9 @@ Steps For the POC task
      }
  }
  
-# Now your CI/CD pipeline is fully configure
-# Can now check by making changes to the Github
-
+# Now your CI/CD pipeline is fully configured
+# Youc Can now check by making changes to the Github
+Jenkins is running on http://localhost:8080/job
 # Deploy on Kubernetes cluster
 --> Install kubernetes from the official website
 -->Also install and configure Kubectl for running and cheking the kubernetes pos and cluster information
